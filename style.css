@@ -7,7 +7,7 @@ body {
 
 /* Main */
 main {
-  border: 1px solid;
+  padding: 0 150px;
 }
 
 #logo {
@@ -269,4 +269,52 @@ button {
 
 button:hover {
   background-color: #017C6D;
+}
+
+
+/* Footer */
+footer{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.footer-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.customer-support {
+  font-weight: bold;
+}
+.customer-support #phone{
+  font-weight: lighter;
+}
+.customer-support #enquire{
+  font-weight: lighter;
+  color: #0099CC;
+}
+.customer-support #location{
+  font-weight: lighter;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px; 
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.copyright{
+  font-weight: 300;
 }
