@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,57 +14,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-   <!-- Navigation --> 
-   <nav>
-        <span id="logo" ><img  src="/images/Digiplus_banner.png" alt="Digiplus" /></span>
-        <div class="nav-4">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Services</a>
-        <a id="about"
-        href="#">About</a>
+    <nav>
+      <div id="logo" >
+        <a href="#">
+          <img  src="/images/Digiplus_banner.png" alt="Digiplus" height="40" />
+        </a>
+      </div>
 
-        <button class="but-ton">Chat US</button>
-        </div>
-      </nav>
-    </header>
+      <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Services</a>
+      <a id="about" href="#">About</a>
+      </div>
 
+      <div class="chat"><a href="#">Chat US</a></div>
+    </nav>
+
+    
     <!-- The main content -->
     <main>      
-      <section class="About us">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-md-6">
-              <img src="/Rectangle 41.png" alt="rectangle-pics" class="image">
-            </div>
-
-            <div class="col-md-6">
-              <div>
-                <h2>About Us</h2>
-                <h3 class="content-1">
-                  Empowering Connections:
-                  Crafting Digital Experiences That Inspire.
-                </h3>
-
-                <p class="content-2">
-                  The Digiplus Connect Cafe provide a one-stop solution for various business service needs. Our 
-                  Connect Cafe offers a range of service including printing, photocopying, scanning, passport 
-                  photographs, and binding of documents and sales of MTN Enterprise Business Connectivity 
-                  and IoT Products such as Mifis, Routers, 5G boxes, Wi-Fi cameras, Doorbells, etc.
-                  <br>
-                  <br>
-                  Our primary objective is to offer convenience, reliability, and exceptional customer service to 
-                  both individual and corporate clients.
-                </p>
-              </div>
-            </div>
-          </div>
+      <section class="about-us">
+        <div class="left-card">
+          <img src="./images/about-us.png" alt="About Us">
         </div>
-      </section>      
+
+        <div class="right-card">
+          <h3>About Us</h3>
+          <h3 class="header">
+            Empowering Connections: <br>
+					  Crafting Digital Experiences That Inspire.
+          </h3>
+          <p>
+            The Digiplus Connect Cafe provides a one-stop solution for various business service needs. Our 
+            Connect Cafe offers a range of services including printing, photocopying, scanning, passport 
+            photographs, and binding of documents and sales of MTN Enterprise Business Connectivity 
+            and IoT Products such as Mifis, Routers, 5G boxes, Wi-Fi cameras, Doorbells, etc.
+            <br><br>
+            Our primary objective is to offer convenience, reliability, and exceptional customer service to 
+            both individual and corporate clients.
+          </p>
+        </div> 
+      </section>  
+      
+      
       <!-- Our Commitment -->
-      <section class="Ourcommitment">
+
+      <section class="commitment">
+        <div class="left-card">
+          <img src="./images/commitment.png" alt="About Us">
+        </div>
+
+        <div class="right-card">
+          <h3>Our Commitments</h3>
+          <h3 class="header">
+            Unlocking Digital Experiences: <br>
+            Serving Customers & Elevating <br>
+            Digiplus Connect Online Presence.
+          </h3>
+          <p>
+            Digiplus Connect Cafe has a goal to serve 1,200 unique customers by the end of the year.
+            Our primary objective is to design a website for Digiplus Connect that effectively 
+            showcases their brand products and services and create a strong online presence.
+          </p>
+        </div> 
+      </section> 
+      <!-- <section class="Ourcommitment">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -81,10 +96,10 @@
                 Our primary objective is to design a website for Digiplus Connect that effectively 
                 showcases their brand products and services and create a strong online presence.
               </p>
-            </div>
+            </div> -->
 
             <div class="col-md-6">
-              <img src="/Rectangle 41 (1).png" alt="Rectangle 41 (1)" class="image">
+              <img src="/Rectangle%2041 (1).png" alt="Rectangle 41 (1)" class="image">
             </div>
 
           </div>
