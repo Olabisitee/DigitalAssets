@@ -24,7 +24,11 @@ nav {
 }
 .chat a{
   text-decoration: none;
-  color: #2B2B2B;
+  color: #fff;
+  background-color: #017C6D;
+  font-size: smaller;
+  padding: 10px;
+  border-radius: 5px;
 }
 .menu-icon {
   display: none;
