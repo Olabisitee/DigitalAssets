@@ -409,7 +409,16 @@ footer{
     flex-direction: column;
     margin: 50px 0 100px 0;
   }
-  .copyright{
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .social img {
     display: none;
+  }
+  .copyright {
+    text-align: center;
   }
 }
