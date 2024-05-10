@@ -83,20 +83,17 @@ main {
 .about-us{
   display: flex;
   height: 520px;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
-  /* margin-top: 100px; */
-  /* gap: 50px; */
-  /* width: 100%; */
+  margin-top: 100px;
+  gap: 100px;
+  width: 100%;
 }
  .about-us .left-card {
   width: 35%;
-  height: 360px;
-  
 }
 .about-us .right-card{
   width: 60%;
-  height: 352px;
 }
 .right-card h3 {
   color: #2B2B2B;
@@ -106,10 +103,10 @@ main {
 .right-card .header {
   color: #017C6D;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 25px;
 }
 .right-card p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -123,8 +120,6 @@ main {
     border: 1px solid;
     width: 200%;
   }
-
-
   .about-us .left-card{
     display: none;
   }
@@ -149,9 +144,9 @@ main {
   flex-direction: row-reverse; /* Reverse the order of flex items */
   height: 520px;
   justify-content: space-between;
-  /* margin-top: 100px; */
+  margin-top: 100px;
   gap: 50px;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .commitment .left-card {
